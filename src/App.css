@@ -32,7 +32,62 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.titulo {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin-top: 5px;
+  font-family: 'Urbanist', sans-serif;
+  color: #4385d0 !important;
+}
+
+.row {
+  justify-content: center;
+  margin-top: 5px;
+  font-family: 'Urbanist', sans-serif;
+  color: #307cd4;
+
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 16px;
+}
+
+
+.links:hover {
+  background-color: #307cd4;
+  color: #ffffff;
+  border: 1px, solid;
+  border-style: inset !important;
+  border-radius: 25%, 10% !important;
+  border-color: #20b382;
+  transition: .3s;
+  transform: scale(1.1);
+  font-family: 'Urbanist', sans-serif;
+
+}
+
+.btnInfo:hover {
+  transition: .3s;
+  transform: scale(1.1);
+}
+
+.loading,
+.toflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
