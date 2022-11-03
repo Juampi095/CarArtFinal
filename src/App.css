@@ -63,7 +63,7 @@
 a {
   text-decoration: none;
   font-family: 'Urbanist', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 
@@ -90,4 +90,59 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.precioUnidad {
+  font-family: 'Urbanist', sans-serif;
+  color: #307cd4;
+}
+
+.center{
+  font-family: 'Urbanist', sans-serif;
+  color: #307cd4;
+}
+
+.tabla{
+  font-family: 'Urbanist', sans-serif;
+  color: #307cd4;
+}
+
+.align-middle{
+  font-family: 'Urbanist', sans-serif;
+}
+.title{
+  font-family: 'Urbanist';
+  padding: 1px;
+}
+.titleH2{
+  font-family: 'Urbanist';
+  padding: 1px;
+  color: #307cd4;
+}
+.align-middle{
+  font-family: 'Urbanist';
+  
+}
+
+.titleCard{
+  font-family: 'Urbanist', bold;  
+  color: #307cd4;
+  padding: 1px;
+  margin-top: 5px;
+}
+.parrafo{
+  font-family: 'Urbanist';
+}
+
+.btn{
+  font-family: 'Urbanist';
+}
+.titleCarrito{
+  margin: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.btn2{
+  margin: 10px;
+  
 }

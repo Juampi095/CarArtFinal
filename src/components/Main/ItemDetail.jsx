@@ -32,13 +32,13 @@ const ItemDetail = ({ item }) => {
     <Container>
       <div className='container detailCont'>
         <ToastContainer />
-        <div className='col-6'>
+        <div className='col-5'>
           <Image fluid src={item.img} alt={item.title} />
         </div>
         <div>
-          <h2>{item.title}</h2>
-          <p>{item.description}</p>
-          <p>Precio unitario: $ {item.price}</p>
+          <h3 className="titleCard">{item.title}</h3>
+          <p className="parrafo">{item.description}</p>
+          <p className="precioUnidad">Precio por unidad: USD $ {item.price}</p>
           {unidades === 0 ? (
             <ItemCount prueba={prueba} stock={item.stock} initial={quantity} />
           ) : (
@@ -56,3 +56,4 @@ const ItemDetail = ({ item }) => {
 };
 
 export default ItemDetail;
+

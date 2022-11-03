@@ -12,9 +12,9 @@ const Cart = () => {
   if (carrito.length === 0) {
     return (
       <div className='center'>
-        <h1>Tu carrito está vacío</h1>
+        <h3 className="titleCarrito">Tu carrito está vacío</h3>
         <Link to='/'>
-          <button className='btn btn-success'>
+          <button className='btn btn-success btn2'>
             <small>Ver productos</small>
           </button>
         </Link>
@@ -26,11 +26,11 @@ const Cart = () => {
     <Container>
       <Table striped bordered hover size='sm' responsive>
         <thead>
-          <tr>
+          <tr className="tabla">
             <th>Foto</th>
             <th>Producto</th>
             <th>Cantidad</th>
-            <th>Precio Unitario</th>
+            <th>Precio por unidad</th>
             <th>Subtotal</th>
             <th>Borrar</th>
           </tr>

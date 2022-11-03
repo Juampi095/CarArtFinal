@@ -1,38 +1,5 @@
 export const products = [
   {
-    id: "1",
-    title: "Divo",
-    brand: "Buggatti",
-    description:
-      "Buggatti Divo escala 1:18",
-    price: 249,
-    stock: 50,
-    category: "FO",
-    img: "https://res.cloudinary.com/dmlfkx9ok/image/upload/v1665673888/CarArt/Bugatti1_ddksae.jpg",
-  },
-  {
-    id: "2",
-    title: "488GT3",
-    brand: "Ferrari",
-    description:
-      "Ferrari 488GT3 escala 1:24",
-    price: 199,
-    stock: 100,
-    category: "FO",
-    img: "https://res.cloudinary.com/dmlfkx9ok/image/upload/v1665673903/CarArt/Ferrari1_aaetht.jpg",
-  },
-  {
-    id: "3",
-    title: "Huayra BC",
-    brand: "Pagani",
-    description:
-      "Pagani Huayra BC escala 1:18",
-    price: 399,
-    stock: 150,
-    category: "FO",
-    img: "https://res.cloudinary.com/dmlfkx9ok/image/upload/v1665673911/CarArt/Huayra_ff4of5.jpg",
-  },
-  {
     title: "GT Vision",
     brand: "Bugatti",
     description:

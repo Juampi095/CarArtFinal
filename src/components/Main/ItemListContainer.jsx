@@ -11,11 +11,11 @@ const ItemListContainer = () => {
   const { categoryName } = useParams();
 
   useEffect(() => {
-    const coleccionProductos = collection(dataBase, "items");
+    const productos = collection(dataBase, "productos");
 
     const referencia = categoryName
-      ? query(coleccionProductos, where("category", "==", categoryName))
-      : coleccionProductos;
+      ? query(productos, where("category", "==", categoryName))
+      : productos;
 
     getDocs(referencia)
       .then((res) => {
@@ -40,14 +40,14 @@ const ItemListContainer = () => {
   if (loading) {
     return (
       <div className='loading'>
-        <PuffLoader color='#05adce' />;
+        <PuffLoader color='#05adce' />
       </div>
     );
   }
 
   return (
     <div className='container-fluid'>
-      <ItemList item={items} />
+      <ItemList items={items} />
     </div>
   );
 };

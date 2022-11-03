@@ -29,11 +29,11 @@ const ItemCount = ({ stock, initial = 1, prueba }) => {
         >
           +
         </button>
-        <button disabled='true' className='btn btn-primary'>
+        <button enabled='true' className='btn btn-primary'>
           {count}
         </button>
         <button
-          disabled={count === initial}
+          enabled={count === initial}
           className='btn btn-primary'
           onClick={restar}
         >

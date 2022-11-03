@@ -15,7 +15,7 @@ const Formulario = () => {
   const [telefono, setTelefono] = useState("");
   const [loading, setLoading] = useState(false);
   const [ordenDeCompraID, setOrdenDeCompraID] = useState("");
-  const { carrito, montoTotal, borrarCarrito, totalUnidades } =
+  const { cart, montoTotal, borrarCarrito, totalUnidades } =
     useContext(CartContext);
   const precioTotal = montoTotal(); 
   const unidadesTotal = totalUnidades();
@@ -26,7 +26,7 @@ const Formulario = () => {
     const ordenDeCompra = {
       buyer: { nombre, apellido },
       correo: { correo },
-      items: carrito,
+      items: cart,
       total: precioTotal,
       date: serverTimestamp(),
     };
@@ -81,11 +81,11 @@ const Formulario = () => {
 
   return (
     <Container>
-      <h1>Detalle de tu compra</h1>
-      <h3>
-        Monto Total a Pagar: <b>$ {precioTotal} </b>
+      <h2 className="titleH2">Detalle de tu compra</h2>
+      <h3 className="title">
+        Monto Total a Pagar: USD <b>$ {precioTotal} </b>
       </h3>
-      <h5>
+      <h5 className="title">
         Cantidad de Productos: <b>{unidadesTotal}</b>
       </h5>
       <Row>
@@ -98,7 +98,7 @@ const Formulario = () => {
                 name='correoUno'
                 onChange={handleCorreo}
                 value={correo}
-                placeholder='Ingresar mail'
+                placeholder='Ingresar Correo'
                 required
               />
               <Form.Text className='text-muted'>
