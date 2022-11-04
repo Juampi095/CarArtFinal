@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ItemList from "./ItemList" //-> import por default
+import ItemList from "./ItemList" 
 import { useParams } from "react-router-dom";
 import { PuffLoader } from "react-spinners";
 import {collection, getDocs,query,where} from "firebase/firestore";

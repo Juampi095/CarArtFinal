@@ -12,7 +12,7 @@ const Cart = () => {
   if (carrito.length === 0) {
     return (
       <div className='center'>
-        <h3 className="titleCarrito">Tu carrito está vacío</h3>
+        <h3 className="titleCarrito">¡Tu carrito está vacío!</h3>
         <Link to='/'>
           <button className='btn btn-success btn2'>
             <small>Ver productos</small>

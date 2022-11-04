@@ -17,7 +17,7 @@ function NavBar() {
         collapseOnSelect
         style={{ padding: "0" }}
         expand='lg'
-      // bg='light'
+      
       >
         <Container>
           <Link to='/'>
