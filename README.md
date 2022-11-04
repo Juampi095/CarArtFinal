@@ -64,6 +64,7 @@ npm install
  npm start 
 ```
 
+## Visualizar proyecto
 - Podés visualizar el proyecto desde el siguiente [link](https://car-art-final.vercel.app/).
 
 
