@@ -166,7 +166,7 @@ const Formulario = () => {
                 variant='primary'
                 type='submit'
                 className='marginTop'
-                disabled={
+                enabled={
                   correo !== correoDos || (correo === "" && correoDos === "")
                 }
               >
